@@ -1,7 +1,7 @@
 pragma solidity ^0.4.25;
 //----------------------------------------------------------------------
 // 'Smart Social Protocol' contract                                     |
-// Deployed to : 0x78b85535cB5A0458746A486e367046C3d0a72969             |
+// Deployed to : 0x399934a1b63154c825e518c68b7da2147d6cb0c9             |
 // Symbol      : SAS                                                    |
 // Name        : Smart Social Protocol                                  |
 // Total supply: 9,500,000,000                                          |
@@ -81,7 +81,7 @@ contract SmartSocialProtocol is ERC20 {
     uint public target0drop = 50000;
     uint public progress0drop = 0;
     
-    address multisig = 0x78b85535cB5A0458746A486e367046C3d0a72969;
+    address multisig = 0x399934a1b63154c825e518c68b7da2147d6cb0c9;
 
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
